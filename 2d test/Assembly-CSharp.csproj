@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CardManager.cs" />
      <Compile Include="Assets\Draggable.cs" />
      <Compile Include="Assets\DropZone.cs" />
      <Compile Include="Assets\MainCamera.cs" />

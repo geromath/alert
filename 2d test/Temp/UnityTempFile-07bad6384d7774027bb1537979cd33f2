@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:'Temp/Assembly-CSharp-Editor-firstpass.dll'
+-out:'Temp/Assembly-CSharp.dll'
 -unsafe
 -r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/Managed/UnityEditor.dll'
@@ -179,10 +179,13 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:CROSS_PLATFORM_INPUT
-'Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs'
--r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll'
--r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll'
--r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll'
--r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.Lang.dll'
--r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/Boo.Lang.dll'
--sdk:2.0
+'Assets/CardManager.cs'
+'Assets/Draggable.cs'
+'Assets/DropZone.cs'
+'Assets/MainCamera.cs'
+-r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/Mono/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/Mono/lib/mono/unity/UnityScript.dll'
+-r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/Mono/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/home/mathias/Unity-2017.3.0p2/Editor/Data/Mono/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity
