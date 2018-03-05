@@ -8,13 +8,14 @@ public class BoardManager : MonoBehaviour {
 	public GameObject tableArea;
 	public float spawnTimer = 2f;
 	public float startAmount = 7f;
+    public float gameTimer = 200f;
 	private Vector3 position;
 	
 
 	// Use this for initialization
 	void Start () {
 		Initialize();
-        InvokeRepeating("SpawnObject", 2f, 4f);
+        InvokeRepeating("SpawnObject", 2f, spawnTimer);
 	}
 
 

@@ -30,6 +30,5 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
             scoreText.text = score.ToString();
             Destroy(d.gameObject);
         }
-
 	}
 }
