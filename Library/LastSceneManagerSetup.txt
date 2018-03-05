@@ -1,4 +1,0 @@
-sceneSetups:
-- path: 2d test/Assets/test-dragndrop.unity
-  isLoaded: 1
-  isActive: 1
