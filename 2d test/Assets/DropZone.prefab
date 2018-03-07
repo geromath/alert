@@ -64,6 +64,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
+  itemScores:
+  - name: Name
+    score: 0
+  - name: Email
+    score: 0
+  - name: Location
+    score: 0
+  - name: Address
+    score: 0
+  itemList:
+  - name: Name
+    accepted: 1
+  - name: Email
+    accepted: 1
+  - name: Location
+    accepted: 1
+  - name: Address
+    accepted: 1
 --- !u!114 &114729466466325664
 MonoBehaviour:
   m_ObjectHideFlags: 1
